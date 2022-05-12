@@ -24,9 +24,9 @@ Regularly eating fewer calories than your body requires can cause fatigue and ma
 
 * To Maintain the above equation, we had developed this solution which is helpful to track the calories intake by a user which is helpful to plan the diet accordingly and control their diet for the remaining whole day. If we follow this, we can get reduce chance for getting the diseases.
 
-## Training Workflow
+## 🔃Training Workflow
 <a href="https://github.com/sivasai9398/Image-based-Calorie-Prediction"><img src="https://github.com/sivasai9398/Image-based-Calorie-Prediction/blob/main/image.png" alt="Logo" width="550" height="250"></a>
-  * Images are collected using python web scrapper a piece of code which helps to collect images from web by giving keyword
+  * Images are collected using python web [scrapper](https://github.com/sivasai9398/Image-based-Calorie-Prediction/blob/main/Scrapper.py) a piece of code which helps to collect images from web by giving keyword
 
 
 ## 🏁 Technology Stack
