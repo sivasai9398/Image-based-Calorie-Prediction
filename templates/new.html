@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--{#<script type="text/javascript" src="https://livejs.com/live.js"></script>#}-->
+
+</head>
+<body style="background-color:rgba(29, 21, 138, 0.562);">
+<center><h1 style="color:rgb(30, 28, 128)">Image based Calories Prediction using YOLO-V5</h1></center>
+<center>
+<form method="post"
+         enctype = "multipart/form-data">
+         <input type = "file" name = "file" accept=".png, .jpg, .jpeg"/>
+         <input type = "submit"/>
+    <div class="bg">
+  </div>
+
+    <h1>Result is {{name}}</h1>
+    <h1>Total amount of calories in image are {{tot}} calories</h1>
+      </form>
+
+<img src="{{ url_for('static', filename=path)}}">
+</center>
+</body>
+</html>
