@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/sivasai9398/Image-based-Calorie-Prediction">
-    <img src="https://static.vecteezy.com/system/resources/previews/005/724/676/original/calorie-calculator-line-icon-count-calories-concept-linear-pictogram-calculate-kcal-for-healthy-nutrition-outline-icon-isolated-illustration-vector.jpg" alt="Logo" width="150" height="150">
+    <img src="https://github.com/sivasai9398/Image-based-Calorie-Prediction/blob/main/image_main.jpg" alt="Logo" width="250" height="250">
   </a>
 
 ## 📌 Introduction
