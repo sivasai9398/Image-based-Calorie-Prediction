@@ -1,21 +1,33 @@
 # Image-based-Calorie-Prediction 🍔😋
 
 <p align="center">
-  <a href="https://github.com/HarshCasper/Malaria-Detection">
-    <img src="https://pngimage.net/wp-content/uploads/2018/06/malaria-in-png-1.png" alt="Logo" width="150" height="150">
+  <a href="https://github.com/sivasai9398/Image-based-Calorie-Prediction">
+    <img src="https://static.vecteezy.com/system/resources/previews/005/724/676/original/calorie-calculator-line-icon-count-calories-concept-linear-pictogram-calculate-kcal-for-healthy-nutrition-outline-icon-isolated-illustration-vector.jpg" alt="Logo" width="150" height="150">
   </a>
 
 ## 📌 Introduction
 
-This Machine Learning Web Application utilizes a Two-Layered Convolutional Neural Network to process the Cell Images and predict if they are Malarial with an accuracy of nearly 95%. The [Dataset](https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria) to process the Deep Learning Algorithm is taken from the official US National Library of Medicine's NIH Website which is a repository of segmented cells from the thin blood smear slide images from the Malaria Screener research activity.
+This Deep Learning Web Application utilizes Architecture from [Yolov5](https://github.com/ultralytics/yolov5) an Object detection model to process the Food Images and draw the bounding boxes around the food items which will give the count of each food items and atlast calories count is calculated.Calories values for a single food items are stored in the database and retrieved when it is useful.
 
 ## 🎯 Purpose of the Project
 
-Where malaria is not endemic any more (such as in the United States), health-care providers may not be familiar with the disease. Clinicians seeing a malaria patient may forget to consider malaria among the potential diagnoses and not order the needed diagnostic tests. Laboratorians may lack experience with malaria and fail to detect parasites when examining blood smears under the microscope. Malaria is an acute febrile illness. 
+Now a days many diseases are coming to notice which are very different and new when compared to previous generations diseases with more calorie consumption related diseases or less calorie consumption related diseases. 
+* High calorie intake effects:<br/>
+The result is weightgain and higher body fat percentages. High calorie intake will cause stress on your body. High caloric foods are high in fats and sugars and extraordinary intake of these types of foods increase your risk factors for type 2 diabetes, heart disease and cancers.
+* Low Calorie intake effects:
+Regularly eating fewer calories than your body requires can cause fatigue and make it more challenging for you to meet your daily nutrient needs. For instance, calorie-restricted diets may not provide sufficient amounts of iron, folate or vitamin B12. This can lead to anemia and extreme fatigue (16, 17, 18).
 
-In a non-immune individual, symptoms usually appear 10–15 days after the infective mosquito bite. The first symptoms – fever, headache, and chills – may be mild and difficult to recognize as malaria. If not treated within 24 hours, P. falciparum malaria can progress to severe illness, often leading to death. 
+ * To Overcome the above Problems there is a fundamental law of nutrition that goes like this: in order to maintain a constant weight, you have to balance the number of calories you eat with the number of calories you burn. To put it simply,
 
-Our Model performs fairly well with an accuracy of 95% and an F1 Score of 95% and Recall Score of 92%. This provides a handy tool to utilize the power of Machine Learning and Artificial Intelligence in Binary Classification Problems where time and accuracy is the paramount objective of classification.
+
+* If the equation is out of balance, you will either gain or lose weight, depending on which side of the equation is greater. You will not notice any weight change on a day-to-day basis, but you will if the equation remains unbalanced over a period of a week or more. The weight you might gain is stored primarily as fat.
+
+* To Maintain the above equation, we had developed this solution which is helpful to track the calories intake by a user which is helpful to plan the diet accordingly and control their diet for the remaining whole day. If we follow this, we can get reduce chance for getting the diseases.
+
+## Training Workflow
+<a href="https://github.com/sivasai9398/Image-based-Calorie-Prediction"><img src="https://github.com/sivasai9398/Image-based-Calorie-Prediction/blob/main/image.png" alt="Logo" width="550" height="250"></a>
+  * Images are collected using python web scrapper a piece of code which helps to collect images from web by giving keyword
+
 
 ## 🏁 Technology Stack
 
@@ -32,7 +44,7 @@ Our Model performs fairly well with an accuracy of 95% and an F1 Score of 95% an
 2. Clone the Repo by going to your local Git Client and pushing in the command: 
 
 ```sh
-https://github.com/HarshCasper/Malaria-Detection.git
+https://github.com/sivasai9398/Image-based-Calorie-Prediction.git
 ```
 
 3. Install the Packages: 
@@ -45,13 +57,12 @@ pip install -r requirements.txt
 python app.py
 ```
 
-5. Go to ` http://127.0.0.1:5000/` and enjoy the application.
+5. Go to ` http://127.0.0.1:5000/predict` and enjoy the application.
 
 ## 📋 Further Changes to be Done
 
 - [ ] Deploying the Web Application on Cloud.
-- [ ] Development of an architecture using Pre-Trained Model like VGG16.
-- [ ] Implementing the Model in PyTorch.
+- [ ] Introducing weight estimation to get exact calories of each food.
 - [ ] Enhance the User-Interface using HTML/CSS.
 - [ ] Set the Application on Docker.
 
