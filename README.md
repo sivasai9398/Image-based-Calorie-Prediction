@@ -68,4 +68,4 @@ python app.py
 
 ## 📜 LICENSE
 
-[MIT](https://github.com/HarshCasper/Malaria-Detection/blob/master/LICENSE)
+[MIT](https://github.com/sivasai9398/Image-based-Calorie-Prediction/blob/main/LICENSE)
